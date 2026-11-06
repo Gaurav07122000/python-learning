@@ -29,7 +29,7 @@ class DeliveryTask:
         self.status = "Pending"
     def __str__(self):
         return f"Delivery Task {self.task_id} for {self.vendor_name} scheduled on {self.delivery_date} is currently {self.status}."
-    def _repr__(self):
+    def __repr__(self):
         return f"DeliveryTask(task_id={self.task_id}, vendor_name='{self.vendor_name}', delivery_date='{self.delivery_date}', status='{self.status}')"
 
     def update_delivery_date(self, new_date):
