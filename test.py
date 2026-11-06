@@ -7,4 +7,4 @@ def add_number(a,b):
     return a+b
 
 total = add_number(10, 25)
-print(f"\n Total sum is: {total}")    
+print(f"\n Total sum is: {total}")
